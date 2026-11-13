@@ -1,0 +1,5 @@
+.dart_tool/
+build/
+.fvm/
+# library package：lock 檔由使用的 app 決定
+pubspec.lock

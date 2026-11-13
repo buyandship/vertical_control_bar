@@ -1,0 +1,25 @@
+name: vertical_control_bar
+description: iPhone Duo vertical control bar for Flutter apps — moves App Bar buttons and tabs into the side column next to the status bar.
+version: 1.0.0
+# 公司內部使用，以 git dependency 引用，不發佈到 pub.dev
+publish_to: none
+repository: https://github.com/buyandship/vertical_control_bar
+
+environment:
+  sdk: ^3.11.0
+  flutter: ">=3.41.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  foldable: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: VerticalControlBarPlugin
